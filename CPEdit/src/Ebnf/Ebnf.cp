@@ -277,7 +277,7 @@ PROCEDURE Compile*():BOOLEAN;
 VAR ok:BOOLEAN;
 BEGIN (*set R to the beginning of the text to be compiled*) 
 	TextsCP.WriteString(W,"Compile Start read Grammar");Console.WriteLn();
-	R.filename:= "C://users//rols//lexGrammar.txt";	
+	R.filename:= "/Users//andreas//Desktop//lexGrammar.txt";	
 	TextsCP.OpenReader(R);
 	Console.WriteString("EBNF nach OpenReader");Console.WriteLn();	
 	
